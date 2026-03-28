@@ -1,27 +1,3 @@
-from jianying_draft_sdk.models.motion import (
-    LineLayout,
-    LineMotion,
-    PlannedTimelineDocument,
-    PlannedTimelineLine,
-    PlannedTimelineShot,
-)
-from jianying_draft_sdk.models.timeline import (
-    StyleSpan,
-    TimelineDocument,
-    TimelineLine,
-    TimelineShot,
-    TimelineWord,
-)
+"""Compatibility shim. Prefer `jianying.models`."""
 
-__all__ = [
-    "LineLayout",
-    "LineMotion",
-    "PlannedTimelineDocument",
-    "PlannedTimelineLine",
-    "PlannedTimelineShot",
-    "StyleSpan",
-    "TimelineDocument",
-    "TimelineLine",
-    "TimelineShot",
-    "TimelineWord",
-]
+from jianying.models import *  # noqa: F401,F403

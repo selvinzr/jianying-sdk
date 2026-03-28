@@ -1,23 +1,3 @@
-from jianying_draft_sdk.presets.march18 import (
-    March18PresetConfig,
-    March18StylePreset,
-    March18SubtitleLine,
-)
-from jianying_draft_sdk.presets.subtitle_motion import (
-    AnimationMaterialLibrary,
-    ComposedSubtitleRef,
-    StackedSubtitleComposer,
-    StackedSubtitleComposerConfig,
-    StackedSubtitleLine,
-)
+"""Compatibility shim. Prefer `jianying.presets`."""
 
-__all__ = [
-    "AnimationMaterialLibrary",
-    "ComposedSubtitleRef",
-    "March18PresetConfig",
-    "March18StylePreset",
-    "March18SubtitleLine",
-    "StackedSubtitleComposer",
-    "StackedSubtitleComposerConfig",
-    "StackedSubtitleLine",
-]
+from jianying.presets import *  # noqa: F401,F403

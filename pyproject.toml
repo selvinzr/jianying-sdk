@@ -3,9 +3,9 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "jianying-draft-sdk"
-version = "0.1.0"
-description = "Python SDK for Jianying draft editing, encryption, decryption, and export workflows."
+name = "jianying-sdk"
+version = "0.2.0"
+description = "Python SDK for Jianying draft creation, editing, encryption, decryption, and export workflows."
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
